@@ -57,6 +57,7 @@ body {
 .container {
   opacity: 1;
   animation: fadeOut 18s forwards;
+  width: 700px;
 }
 
 h1, h2, h3 {
@@ -82,7 +83,7 @@ a:hover {
 
 .card-blue {
   background-color: #3B6064;
-  width: 700px;
+  /* width: 700px; */
   margin: 15px auto;
   padding: 15px;
   text-align: center;
@@ -141,3 +142,21 @@ ol {
   list-style: inside;
   line-height: 30px;
 }
+
+/* @media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+} */
