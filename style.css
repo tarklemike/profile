@@ -14,12 +14,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
-  animation: fadeIn 22s forwards 5s;
+  animation: fadeIn 20s forwards 3s;
   z-index: -1;
   position: fixed;
   width: 100%;
   height: 100%;
-  background-size: contain;
+  background-size: auto 100%;
 }
 
 .rotate:hover {
@@ -55,7 +55,7 @@ body {
 }
 
 .container {
-  opacity: 1;
+  /* opacity: 0; */
   animation: fadeOut 18s forwards;
   width: 700px;
 }
